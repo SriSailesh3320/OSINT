@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6ec23397e1eea62eeb49b4dc631a9b69 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6ec23397e1eea62eeb49b4dc631a9b69" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6ec23397e1eea62eeb49b4dc631a9b69 = L.map(
+                "map_6ec23397e1eea62eeb49b4dc631a9b69",
+                {
+                    center: [37.8767, -122.2676],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9b3d843e15144d7db4e0982002bd75e2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9b3d843e15144d7db4e0982002bd75e2.addTo(map_6ec23397e1eea62eeb49b4dc631a9b69);
+        
+    
+            var marker_a1ca2b8e3c98c249cede8aa35416d802 = L.marker(
+                [37.8767, -122.2676],
+                {
+}
+            ).addTo(map_6ec23397e1eea62eeb49b4dc631a9b69);
+        
+    
+            var icon_4280be720cbbe475c34abe8f919d147d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39e5ca5cdc1baf6088e1acf6d77df56a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5801aea85b5c2a8bc5a9fbba2449b253 = $(`<div id="html_5801aea85b5c2a8bc5a9fbba2449b253" style="width: 100.0%; height: 100.0%;">             <b>Target:</b> 9.9.9.9<br>             <b>IP:</b> 9.9.9.9<br>             <b>Location:</b> Berkeley, United States<br>             <b>ASN:</b> 19281<br>             <b>Organization:</b> CLEAN-97<br>             <b>Open Ports:</b> 2             </div>`)[0];
+                popup_39e5ca5cdc1baf6088e1acf6d77df56a.setContent(html_5801aea85b5c2a8bc5a9fbba2449b253);
+            
+        
+
+        marker_a1ca2b8e3c98c249cede8aa35416d802.bindPopup(popup_39e5ca5cdc1baf6088e1acf6d77df56a)
+        ;
+
+        
+    
+    
+            marker_a1ca2b8e3c98c249cede8aa35416d802.bindTooltip(
+                `<div>
+                     9.9.9.9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a1ca2b8e3c98c249cede8aa35416d802.setIcon(icon_4280be720cbbe475c34abe8f919d147d);
+            
+</script>
+</html>

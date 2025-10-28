@@ -1,0 +1,56 @@
+{
+    "target": "1.1.1.1",
+    "timestamp": "2025-10-28T22:37:48.194032",
+    "basic_info": {
+        "hostname": "one.one.one.one",
+        "ip": "1.1.1.1"
+    },
+    "geolocation": {
+        "country": "Australia",
+        "country_code": "AU",
+        "city": "South Brisbane",
+        "latitude": -27.4766,
+        "longitude": 153.0166,
+        "timezone": "Australia/Brisbane",
+        "isp": "Cloudflare, Inc",
+        "org": "APNIC and Cloudflare DNS Resolver project"
+    },
+    "threat_intel": {
+        "reputation": 76,
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 64,
+        "undetected": 31,
+        "as_owner": "CLOUDFLARENET",
+        "country": "N/A"
+    },
+    "whois_info": {
+        "asn": "13335",
+        "asn_description": "CLOUDFLARENET, US",
+        "asn_country": "AU",
+        "network": "1.1.1.0/24",
+        "organization": "APNIC-LABS"
+    },
+    "ports": [
+        {
+            "port": 80,
+            "service": "http",
+            "state": "open"
+        },
+        {
+            "port": 443,
+            "service": "https",
+            "state": "open"
+        },
+        {
+            "port": 53,
+            "service": "domain",
+            "state": "open"
+        },
+        {
+            "port": 8080,
+            "service": "unknown",
+            "state": "open"
+        }
+    ]
+}

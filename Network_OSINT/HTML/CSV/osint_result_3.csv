@@ -1,0 +1,25 @@
+Category,Field,Value
+Basic Info,hostname,dns9.quad9.net
+Basic Info,ip,9.9.9.9
+WHOIS,asn,19281
+WHOIS,asn_description,"QUAD9-AS-1, US"
+WHOIS,asn_country,US
+WHOIS,network,9.9.9.0/24
+WHOIS,organization,CLEAN-97
+Geolocation,country,United States
+Geolocation,country_code,US
+Geolocation,city,Berkeley
+Geolocation,latitude,37.8767
+Geolocation,longitude,-122.2676
+Geolocation,timezone,America/Los_Angeles
+Geolocation,isp,Quad9
+Geolocation,org,Quad9
+Threat Intelligence,reputation,10
+Threat Intelligence,malicious,0
+Threat Intelligence,suspicious,0
+Threat Intelligence,harmless,61
+Threat Intelligence,undetected,34
+Threat Intelligence,as_owner,QUAD9-AS-1
+Threat Intelligence,country,US
+Open Ports,443,https (open)
+Open Ports,53,domain (open)

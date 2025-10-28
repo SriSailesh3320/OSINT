@@ -1,0 +1,25 @@
+# Networking and data handling
+requests
+ipwhois
+folium
+
+
+# Social media API wrappers
+praw
+
+# Web scraping and parsing
+newspaper3k
+beautifulsoup4
+lxml[html_clean]
+lxml_html_clean
+
+# Natural Language Processing
+textblob
+
+# Data manipulation and visualization
+pandas
+matplotlib
+numpy
+
+# Environment variable management
+python-dotenv

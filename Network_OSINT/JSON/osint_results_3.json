@@ -1,0 +1,46 @@
+{
+    "target": "9.9.9.9",
+    "timestamp": "2025-10-28T23:52:29.169123",
+    "basic_info": {
+        "hostname": "dns9.quad9.net",
+        "ip": "9.9.9.9"
+    },
+    "geolocation": {
+        "country": "United States",
+        "country_code": "US",
+        "city": "Berkeley",
+        "latitude": 37.8767,
+        "longitude": -122.2676,
+        "timezone": "America/Los_Angeles",
+        "isp": "Quad9",
+        "org": "Quad9"
+    },
+    "threat_intel": {
+        "reputation": 10,
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 61,
+        "undetected": 34,
+        "as_owner": "QUAD9-AS-1",
+        "country": "US"
+    },
+    "whois_info": {
+        "asn": "19281",
+        "asn_description": "QUAD9-AS-1, US",
+        "asn_country": "US",
+        "network": "9.9.9.0/24",
+        "organization": "CLEAN-97"
+    },
+    "ports": [
+        {
+            "port": 443,
+            "service": "https",
+            "state": "open"
+        },
+        {
+            "port": 53,
+            "service": "domain",
+            "state": "open"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+Category,Field,Value
+Basic Info,hostname,one.one.one.one
+Basic Info,ip,1.1.1.1
+WHOIS,asn,13335
+WHOIS,asn_description,"CLOUDFLARENET, US"
+WHOIS,asn_country,AU
+WHOIS,network,1.1.1.0/24
+WHOIS,organization,APNIC-LABS
+Geolocation,country,Australia
+Geolocation,country_code,AU
+Geolocation,city,South Brisbane
+Geolocation,latitude,-27.4766
+Geolocation,longitude,153.0166
+Geolocation,timezone,Australia/Brisbane
+Geolocation,isp,"Cloudflare, Inc"
+Geolocation,org,APNIC and Cloudflare DNS Resolver project
+Threat Intelligence,reputation,76
+Threat Intelligence,malicious,0
+Threat Intelligence,suspicious,0
+Threat Intelligence,harmless,64
+Threat Intelligence,undetected,31
+Threat Intelligence,as_owner,CLOUDFLARENET
+Threat Intelligence,country,N/A
+Open Ports,80,http (open)
+Open Ports,443,https (open)
+Open Ports,53,domain (open)
+Open Ports,8080,unknown (open)

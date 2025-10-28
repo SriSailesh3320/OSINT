@@ -1,0 +1,46 @@
+{
+    "target": "8.8.8.8",
+    "timestamp": "2025-10-28T22:32:45.735183",
+    "basic_info": {
+        "hostname": "dns.google",
+        "ip": "8.8.8.8"
+    },
+    "geolocation": {
+        "country": "United States",
+        "country_code": "US",
+        "city": "Ashburn",
+        "latitude": 39.03,
+        "longitude": -77.5,
+        "timezone": "America/New_York",
+        "isp": "Google LLC",
+        "org": "Google Public DNS"
+    },
+    "threat_intel": {
+        "reputation": 528,
+        "malicious": 0,
+        "suspicious": 0,
+        "harmless": 61,
+        "undetected": 34,
+        "as_owner": "GOOGLE",
+        "country": "US"
+    },
+    "whois_info": {
+        "asn": "15169",
+        "asn_description": "GOOGLE, US",
+        "asn_country": "US",
+        "network": "8.8.8.0/24",
+        "organization": "GOGL"
+    },
+    "ports": [
+        {
+            "port": 443,
+            "service": "https",
+            "state": "open"
+        },
+        {
+            "port": 53,
+            "service": "domain",
+            "state": "open"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+Category,Field,Value
+Basic Info,hostname,dns.google
+Basic Info,ip,8.8.8.8
+WHOIS,asn,15169
+WHOIS,asn_description,"GOOGLE, US"
+WHOIS,asn_country,US
+WHOIS,network,8.8.8.0/24
+WHOIS,organization,GOGL
+Geolocation,country,United States
+Geolocation,country_code,US
+Geolocation,city,Ashburn
+Geolocation,latitude,39.03
+Geolocation,longitude,-77.5
+Geolocation,timezone,America/New_York
+Geolocation,isp,Google LLC
+Geolocation,org,Google Public DNS
+Threat Intelligence,reputation,528
+Threat Intelligence,malicious,0
+Threat Intelligence,suspicious,0
+Threat Intelligence,harmless,61
+Threat Intelligence,undetected,34
+Threat Intelligence,as_owner,GOOGLE
+Threat Intelligence,country,US
+Open Ports,443,https (open)
+Open Ports,53,domain (open)
